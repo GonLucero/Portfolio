@@ -18,7 +18,7 @@ const ResumeApi = [
   {
     id: 2,
     category: "education",
-    year: "UNIVERSIDAD NACIONAL DE TRES DE FEBRERO (UNTREF) (2020 - En Curso) ",
+    year: "UNIVERSIDAD NACIONAL DE TRES DE FEBRERO (2020 - En Curso) ",
     title: "Licenciatura en Artes Electrónicas",
     desc: "Se abarca el campo de las Artes, las Ciencias y la Tecnología. Las producciones en las Artes Electrónicas se destacan por su diversidad y especificidad, y su desarrollo está en constante actualización. Los campos de estudio son: Programación, Electrónica, Sonido, Imagen e Inteligencia Artificial",
     rate: untref,
@@ -26,7 +26,7 @@ const ResumeApi = [
   {
     id: 3,
     category: "education",
-    year: "UNIVERSIDAD TECNOLÓGICA NACIONAL (UTN) (2015 - 2019) ",
+    year: "UNIVERSIDAD TECNOLÓGICA NACIONAL (2015 - 2019) ",
     title: "Ingeniería Industrial",
     desc: "Enfoque en resolver problemas de la mejor manera, utilizando la creatividad para mejorar el funcionamiento de las cosas. Se busca alcanzar la eficiencia en menor tiempo y a menor costo. Se aplica un enfoque integral para gestionar proyectos y procesos de cambio, utilizando la modelación matemática, la analítica de datos y las tecnologías de información para tomar las mejores decisiones. Completado hasta 3° año inclusive",
     rate: utn,
