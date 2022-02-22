@@ -33,7 +33,7 @@ const Home = () => {
               </span>
             </h2>
 
-            <p>Nací el 8 de Noviembre de 1995 en Buenos Aires, Argentina y soy apasionado por la tecnología desde que tengo memoria. A lo largo de mi vida laboral me he encontrado con muchos retos, y ser autodidacta me ha ayudado a resolverlos. Trabajar en equipo y buscar el éxito grupal, es algo que considero muy importante, aunque nunca descarto algún reto personal. Como desarrollador soy creativo, organizado y metódico, me adapto fá cilmente ante cambios y estoy abierto a aprender nuevas tecnologías y lenguajes.</p>
+            <p>Nací el 8 de Noviembre de 1995 en Buenos Aires, Argentina y soy apasionado por la tecnología desde que tengo memoria. A lo largo de mi vida laboral me he encontrado con muchos retos, y ser autodidacta me ha ayudado a resolverlos. Trabajar en equipo y buscar el éxito grupal, es algo que considero muy importante, aunque nunca descarto algún reto personal. Como desarrollador soy creativo, organizado y metódico, me adapto fácilmente ante cambios y estoy abierto a aprender nuevas tecnologías y lenguajes.</p>
 
             <div className='hero_btn d_flex'>
               {/* <div className='col_1'>
