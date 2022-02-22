@@ -94,17 +94,17 @@ emailjs.send('service_xljaqwg', 'template_hzdvc44', template_params, 'user_6TwfT
                   <p>Buenos Aires, Argentina</p> <br />
                   <span>ME PUEDES ENCONTRAR EN:</span>
                   <div className='button f_flex'>
-                    <button className='btn_shadow'>
+                    <button className='btn_shadow'title="Linkedin">
                       <a href="https://www.linkedin.com/in/gon-lucero-js/">
-                      <img style={{width:"4vw"}} src={linkedin}/>
+                      <img style={{width:"4vw"}} src={linkedin} />
                       </a>
                     </button>
-                    <button className='btn_shadow'>
+                    <button className='btn_shadow' title="GitHub">
                       <a href="https://github.com/GonLucero">
                     <img style={{width:"4vw"}} src={github} />
                     </a>
                     </button>
-                    <button className='btn_shadow'>
+                    <button className='btn_shadow' title="Gmail">
                       <a href="mailto:gonzalom.lucero@gmail.com">
                     <img style={{width:"4vw"}} src={gmail}/>
                     </a>

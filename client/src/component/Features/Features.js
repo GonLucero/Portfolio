@@ -10,7 +10,7 @@ const Features = () => {
         <div className='container'>
           <div className='heading'>
             <h4>Features</h4>
-            <h1>What I Do</h1>
+            <h1>Qué es lo que hago?</h1>
           </div>
 
           <div className='content grid'>
