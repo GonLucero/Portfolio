@@ -1,6 +1,9 @@
 import React, { useState } from "react"
+import ReactPlayer from 'react-player'
+import github from '../pic/github2.png'
 
 const Card = (props) => {
+  console.log(props,"props")
   const [modal, setModal] = useState(false)
 
   const toggleModal = () => {
@@ -16,12 +19,26 @@ const Card = (props) => {
     <>
       <div className='box btn_shadow '>
         <div className='img'>
-          <img src={props.image} alt='' onClick={toggleModal} />
+        <div>
+        <ReactPlayer
+          url='https://www.youtube.com/watch?v=PQdBUEXxCoo'
+          className='react-player'
+          playing
+          controls="true"
+          width='100%'
+          height='35vh'
+        />
+      </div>  
+          {/* <img src={props.image} alt='' onClick={toggleModal} /> */}
         </div>
         <div className='category d_flex'>
           <span onClick={toggleModal}>{props.category}</span>
-          <label>
-            <i className='far fa-heart'></i> {props.totalLike}
+          <label >
+          <button className='btn_shadow2'>
+                      <a href={props.git} target="_blank">
+                    <img style={{width:"4vw"}} src={github}/>
+                    </a>
+                    </button>
           </label>
         </div>
         <div className='title'>
@@ -29,7 +46,16 @@ const Card = (props) => {
           <a href='#popup' className='arrow' onClick={toggleModal}>
             <i class='fas fa-arrow-right'></i>
           </a>
+        
         </div>
+        { props.button === "true"
+          ? <div style={{display:"flex", flexDirection:"row", justifyContent:"space-evenly"}}>
+        <button className='btn_shadow'>
+        <a style={{fontSize:"1vw", fontWeight:"bold"}} href={props.web} target="_blank">Visitar Web</a>
+        </button>
+        </div>
+        : <div></div>
+}
       </div>
 
       {/* Popup box */}

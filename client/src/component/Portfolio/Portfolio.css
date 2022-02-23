@@ -1,9 +1,11 @@
 .Portfolio {
   position: relative;
+  
 }
 .Portfolio .box {
   border-radius: 10px;
   position: relative;
+  
 }
 .Portfolio .box:hover {
   background: none;
@@ -11,20 +13,22 @@
 }
 
 .Portfolio .img {
-  height: 300px;
+  height: 38vh;
+  width: 100%;
   overflow: hidden;
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 .Portfolio img {
   width: 100%;
   border-radius: 10px;
-  transition: 0.5s;
+  /* transition: 0.5s; */
+  height: 20%;
 }
 .Portfolio .box .img:hover img {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 .Portfolio .category {
-  margin: 20px 0 30px 0;
+  /* margin: 20px 0 30px 0; */
   text-transform: uppercase;
 }
 .Portfolio .category span {

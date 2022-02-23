@@ -28,7 +28,7 @@ const Home = () => {
               Hola, soy <span>Gonzalo Lucero</span>
             </h1>
             <h2>
-              <span>
+              <span style={{fontSize:"7vh"}}>
                 <Typewriter words={[" Desarrollador Full Stack.", " Programador Profesional."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>

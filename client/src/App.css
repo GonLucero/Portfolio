@@ -64,6 +64,29 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
 }
+.btn_shadow2 {
+  padding: 5px 20px;
+  border-radius: 8px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  margin-top: -3px;
+}
+.btn_shadow2 {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow2:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
+.box_shodow2 {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
 .row,
 .left,
 .right {
@@ -93,6 +116,11 @@ h1 {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 35px;
 }
 p {
