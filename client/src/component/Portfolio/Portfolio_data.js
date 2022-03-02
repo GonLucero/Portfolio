@@ -43,7 +43,7 @@ const Portfolio_data = [
     title: "Videogames-App es un sitio web que ofrece la cobertura de los principales videojuegos actuales, y también permite cargar nuevos videojuegos.",
     image: videogames,
     button:"true",
-    web:"https://workshop-heroku-1.vercel.app/home",
+    web:"https://videogames-apps.vercel.app/",
     git:"https://github.com/GonLucero/Videogames-APP",
     url:"hola"
   },
