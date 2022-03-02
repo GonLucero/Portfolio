@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import ReactPlayer from 'react-player'
 import github from '../pic/github2.png'
 
+
 const Card = (props) => {
   console.log(props,"props")
   const [modal, setModal] = useState(false)
@@ -20,14 +21,20 @@ const Card = (props) => {
       <div className='box btn_shadow '>
         <div className='img'>
         <div>
-        <ReactPlayer
-          url='https://www.youtube.com/watch?v=PQdBUEXxCoo'
+        {/* <ReactPlayer
+          url='https://cdnb.20m.es/sites/76/2019/10/De-d%C3%B3nde-surge-decir-que-algo-f%C3%A1cil-de-conseguir-est%C3%A1-%E2%80%98a-huevo%E2%80%99.jpg'
           className='react-player'
           playing
           controls="true"
           width='100%'
           height='35vh'
-        />
+        /> */}
+        {
+          props.button === "true"
+       ? <img src={props.image}/>
+       : <img style={{width:"15vw", marginLeft:"13vw"}} src={props.image}/>
+        } 
+        
       </div>  
           {/* <img src={props.image} alt='' onClick={toggleModal} /> */}
         </div>

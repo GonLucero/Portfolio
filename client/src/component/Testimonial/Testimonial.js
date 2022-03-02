@@ -20,7 +20,7 @@ const Testimonial = () => {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1)
-    }, 3000)
+    }, 8000)
     return () => clearInterval(slider)
   }, [index])
 
@@ -29,8 +29,8 @@ const Testimonial = () => {
       <section className='Testimonial' id='clients'>
         <div className='container'>
           <div className='heading text-center'>
-            <h4>WHAT CLIENTS SAY</h4>
-            <h1>Testimonial</h1>
+            <h4>QUÉ DICEN MIS COMPAÑEROS DE MÍ?</h4>
+            <h1>RECOMENDACIONES</h1>
           </div>
           <div className='slide'>
             {/*{TestimonialApi.map((val, index) => {
@@ -43,10 +43,14 @@ const Testimonial = () => {
 
             <div className='slide_button'>
               <button className='btn_shadow prev_btn' onClick={() => setIndex(index - 1)}>
-                <i class='fas fa-arrow-left'></i>
+                <i class='fas fa-arrow-left'>
+                <img src="https://img.icons8.com/flat-round/25/000000/back--v1.png"/>
+                </i>
               </button>
               <button className='btn_shadow next_btn' onClick={() => setIndex(index + 1)}>
-                <i class='fas fa-arrow-right'></i>
+                <i class='fas fa-arrow-right'>
+              <img src="https://img.icons8.com/flat-round/25/000000/circled-chevron-right.png"/>
+                </i>
               </button>
             </div>
           </div>

@@ -1,6 +1,8 @@
 import videogames from "./image/videogames.png"
 import cryptoweb from "./image/cryptoweb.png"
-import logiexpress from "./image/logiexpress.png"
+// import logiexpress from "./image/logiexpress.png"
+import fleet from "../pic/fleet.png"
+import logiexpress from "../pic/logiexpress.png"
 
 const Portfolio_data = [
   {
@@ -8,7 +10,7 @@ const Portfolio_data = [
     category: "React Native / TypeScript",
     totalLike: "600",
     title: "FLEET es Aplicación Móvil para la gestión de una flota de transportistas, donde es posible: Asignar viajes por medio de Google Maps, pagarles a través de MercadoPago y poder chatear en vivo con ellos.",
-    image: "./image/portfolio-01.jpg",
+    image: fleet,
     button:"false",
     git:"https://github.com/LOGIEXPRESS/Fleet",
     url:"hola"
